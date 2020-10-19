@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(150px, 12%) 1fr;
+  font-family: sans-serif;
+  line-height: 22px;
+}
+
+nav {
+  background-color: #f6f6f6;
+  border-right: 1px solid #a7d7f9;
+  bottom: 0;
+}
+
+nav img {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #a7d7f9;
+}
+
+.header-account ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.header-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-search__left ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-search__right {
+  display: flex;
+}
+
+.header-search__right ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.header-search__right input {
+  height: 20px;
+  align-self: center;
+}
+
+.header-search__right button {
+  height: 28px;
+  align-self: center;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img {
+  height: 15px;
+}
+
+.nav-info {
+  width: 290px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.466);
+  background-color: #f9f9f9;
+}
+
+.nav-info h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.nav-info h3 {
+  background: url(//upload.wikimedia.org/wikipedia/commons/7/7a/Picto_infobox_map.png)
+    no-repeat top right;
+}
+
+.nav-info h4 {
+  color: blue;
+  background-color: #cddeff;
+  margin-bottom: 10px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.nav-info small {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+  padding: 0 20px;
+}
+
+.nav-info article {
+  border-top: 1px solid rgba(128, 128, 128, 0.466);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+}
+
+.nav-info article i {
+  display: block;
+}
+
+.nav-info figure {
+  margin: 10px 0;
+}
+
+.nav-info figure b {
+  display: block;
+}
+
+.nav-indice h4 {
+  text-align: center;
+}
+
+.nav-indice {
+  max-width: 350px;
+  margin-left: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.466);
+}
+
+aside figure {
+  clear: right;
+  margin: 0;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.466);
+  margin: 4px;
+}
+
+aside div {
+  display: block;
+}
+
+.aside-clear {
+  clear: both;
+}
+
+aside {
+  margin: 0 20px 20px 20px;
+  text-align: center;
+  width: min-content;
+  background-color: #f8f9fa;
+  border: 1px solid rgba(128, 128, 128, 0.466);
+}
+
+h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+  text-align: start;
+  margin-left: 20px;
+}
+
+aside div {
+  font-size: 14px;
+}
+
+.aside-left {
+  float: left;
+  clear: left;
+}
+
+.aside-right {
+  float: right;
+  clear: right;
+}
